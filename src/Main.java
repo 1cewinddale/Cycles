@@ -7,6 +7,9 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
+        task9();
+        task10();
     }
 
     public static void task1() {
@@ -56,6 +59,29 @@ public class Main {
         for (int m = 2; m <= 512; m = m * 2) {
             System.out.println("Число " + m);
         }
+    }public static void task8() {
+        System.out.println("Задача 8");
+        int salary = 29000;
+        int total = 0;
+        for (int m = 1; m <= 12;m++) {
+         total = total + salary;
+            System.out.println("Месяц " + m + " Сумма накоплений равна " + total);
+        }
+    }public static void task9() {
+        System.out.println("Задача 9");
+        int salary = 29000;
+        int total = 0;
+        for (int m = 1; m <= 12;m++) {
+            total = total + salary/100;
+            total = total + salary;
+            System.out.println("Месяц " + m + " Сумма накоплений равна " + total);
+        }
+    }public static void task10() {
+        System.out.println("Задача 10");
+        for (int m = 1; m <= 10;m++) {
+            System.out.println("2 * "+m+" = " +m*2);
+        }
     }
 }
+
 
